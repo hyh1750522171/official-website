@@ -1,0 +1,14 @@
+# 忽略日志文件
+*.log
+
+# 忽略整个'node_modules'目录
+node_modules/
+
+# 忽略'temp'目录及其子目录中的所有文件
+temp/**
+
+# 不忽略根目录下的'important.log'
+!important.log
+
+# 忽略子目录中任何名为'secret.txt'的文件
+**/secret.txt
